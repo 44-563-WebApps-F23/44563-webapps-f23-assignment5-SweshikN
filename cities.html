@@ -13,6 +13,22 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="cities.html">A Few Cities</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-link"><a class="nav-link " href="basic.html">Basic</a></li>
+  
+          <li class="nav-link"><a class="nav-link" href="advanced.html">Advanced</a></li>
+        </ul>
+      </div>
+  
+    </nav>
+  </div>
     <h1>Visit the cities with sweshik.</h1>
     <div class="container">
         <div class="row">
@@ -35,5 +51,161 @@
     <p>
         First the city rows will be broken because md maximum threshold point 768px so if we reduce the size below 768 px the line would be broken into vertical line
     </p>
-</body>
-</html>
+    
+    <div class="conatiner-fluid">
+    
+      <div>
+        <img src="Newyork.jpg" class="img-fluid" alt="Newyork image" width="300" height="400">
+        <img src="Elgin.jpg" class="img-fluid" alt="Elgin image"width="300" height="400">
+        <img src="Memphis.jpg" class="img-fluid" alt="Memphis image"width="300" height="400">
+    
+    </div>
+    
+    <div>
+     <img src="Newyork.jpg" class="img-thumbnail" alt="Newyork image" width="300" height="400">
+     <img src="Elgin.jpg" class="img-thumbnail" alt="Elgin image"width="300" height="400">
+     <img src="Memphis.jpg" class="img-thumbnail" alt="Memphis image"width="300" height="400">
+    
+    </div>
+    <br>
+    
+    <table class="table table-hover table-striped table-sm table-border table-responsive caption-top">
+      <caption >Cities table</caption>
+        <thead>
+         
+            <tr class="table-dark">
+                <th scope="col">Letter</th>
+                <th scope="col">City</th>
+                <th scope="col">River</th>
+                <th scope="col">Tree</th>
+              </tr>
+        </thead>
+        <tbody>
+          <tr class="table table-primary table-striped">
+            <th scope="row">N</th>
+            <td>Newyork</td>
+            <td>Nile river</td>
+            <td> Nut Tree
+            </td>
+          </tr>
+          <tr class="table-secondary">
+            <th scope="row">E</th>
+            <td>Elgin</td>
+            <td>Eagle river</td>
+            <td>Elm Tree</td>
+          </tr>
+          <tr class="table-danger">
+            <th scope="row">M</th>
+            <td>Memphis</td>
+            <td>Michigan river</td>                         
+            <td>Maple tree
+            </td>
+          </tr>
+          <tr class="table-warning">
+            <th scope="row">A</th>
+            <td>Austin</td>
+            <td>Abita River</td>
+            <td>Apple tree</td>
+          </tr>
+          <tr class="table-info">
+            <th scope="row">R</th>
+            <td>Roseville</td>
+            <td>Red river</td>
+            <td>Radish tree
+            </td>
+          </tr>
+          <tr class="table-light">
+            <th scope="row">u</th>
+            <td>Unionville</td>
+            <td>Ugashik river </td>
+            <td>Umbrella Trees
+            </td>
+          </tr>
+    
+        </tbody>
+      </table>
+      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group" role="group" aria-label="First group">
+          <button type="button" class="btn btn-success">N</button>
+          <button type="button" class="btn btn-success">E</button>
+          <button type="button" class="btn btn-success">M</button>
+        </div>
+    
+        <div class="btn-group" role="group" aria-label="Second group">
+          <button type="button" class="btn btn-warning">A</button>
+          <button type="button" class="btn btn-warning">R</button> 
+        </div>
+    
+        <div class="btn-group" role="group" aria-label="Third group">
+          <button type="button" class="btn btn-danger">U</button>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+          Click on Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="basic.html">Basic html</a></li>
+          <li><a class="dropdown-item" href="advanced.html">Advanced html </a></li>
+          
+        </ul>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputCity1" class="form-label">City</label>
+          <input type="text" class="form-control" id="exampleInputCity1" placeholder="Enter your city">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Sign up for newsletter? </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <div class="card-group">
+    <div class="card">
+     
+      <img src="Newyork.jpg" alt="Newyork image">
+      <div class="card-body">
+        <h2>Newyork city </h2>
+        <p>New York, sometimes called New York State,[b] is a state in the Northeastern United States.
+           A Mid-Atlantic state, New York borders New England, and has an international border with Canada.[c]
+            With almost 19.7 million residents, it is the fourth-most populous state in the United States 
+            and seventh-most densely populated as of 2022. New York is the 27th-largest U.S. state by area,
+             with a total area of 54,556 square miles (141,300 km2).[2]</p>
+             <a href="https://en.wikipedia.org/wiki/New_York_(state)#Economy" class="btn btn-primary">Newyork wikipedia</a>
+      </div>
+     
+    
+    </div>
+    <div class="card">
+      
+      <img src="Elgin.jpg" alt="Elgin image">
+      <h2>Elgin city </h2>
+      <div class="card-body">
+        <p>The present Elgin City club was formed on 10 August 1893 by the amalgamation of two Elgin sides,
+           Rovers (Formed 1887) and Vale of Lossie (Founded 1888). However the name Elgin City was used by two clubs prior to this.
+            The first was formed in October 1879, but lasted for only a short time. 
+            The second Elgin City was formed in October 1884 and lasted until early 1887.</p>
+           <a href="https://en.wikipedia.org/wiki/Elgin_City_F.C." class="btn btn-primary">Elgin wikipedia</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="Memphis.jpg" alt="Memphis image">
+      <h2>Memphis city </h2>
+      <div class="card-body">
+        <p> Memphis is a city in the U.S. state of Tennessee. It is the seat of Shelby County in the southwest part of the state;
+           it is situated along the Mississippi River. With a population of 633,104 at the 2020 U.S. census,
+            Memphis is the second-most populous city in Tennessee after Nashville.</p>
+        <a href="https://en.wikipedia.org/wiki/Memphis,_Tennessee" class="btn btn-primary">Memphis wikipedia</a>
+      </div>
+    </div>
+    </div>
+    </div>
+    
+    </body>
+    </html>
